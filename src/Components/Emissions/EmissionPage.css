@@ -1,0 +1,232 @@
+.add-new-emission {
+  width: 700px;
+  height: 500px;
+  background-color: rgb(10, 19, 27);
+  position: absolute;
+  transform: translate(30vw, 20vh);
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(240, 240, 240, 0.2);
+  border-radius: 1rem;
+}
+
+.emission-container {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.emission-forms-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emission-welcome-text {
+  margin: 150px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.emission-by-countries {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-top: 1px solid rgb(203, 233, 33);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.form-container {
+  padding: 10px;
+  height: 380px;
+  width: 400px;
+  max-width: 400px;
+  max-height: 380px;
+  background-color: rgba(39, 38, 44, 0.992);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.all-the-forms {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 160px;
+}
+
+.emission-form-container .form-input {
+  margin-bottom: 10px;
+}
+
+.flight-search {
+  margin: 5px !important;
+}
+
+.airplane {
+  opacity: 50%;
+  width: 420px;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transform: translateY(-10px);
+  background-image: url("../../images/airplane.jpeg");
+  transition: 0.2s;
+  border-bottom: 5px solid rgb(227, 68, 166);
+}
+
+.road {
+  opacity: 50%;
+  width: 420px;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transform: translateY(-10px);
+  background-image: url("../../images/road.jpeg");
+  transition: 0.2s;
+  border-bottom: 5px solid rgb(227, 68, 166);
+}
+
+.shipping {
+  opacity: 50%;
+  width: 420px;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transform: translateY(-10px);
+  background-image: url("../../images/shipping.jpeg");
+  transition: 0.2s;
+  border-bottom: 5px solid rgb(227, 68, 166);
+}
+
+.electricity {
+  opacity: 50%;
+  width: 420px;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transform: translateY(-10px);
+  background-image: url("../../images/electricity.png");
+  transition: 0.2s;
+  border-bottom: 5px solid rgb(227, 68, 166);
+}
+
+.fuel {
+  opacity: 50%;
+  width: 420px;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transform: translateY(-10px);
+  background-image: url("../../images/fuel.jpeg") ;
+  transition: 0.2s;
+  border-bottom: 5px solid rgb(227, 68, 166);
+}
+
+
+.form-container:hover .road,
+.form-container:hover .electricity,
+.form-container:hover .fuel,
+.form-container:hover .shipping,
+.form-container:hover .airplane {
+  opacity: 100%;
+  transition: 0.2s;
+}
+
+.form-container h2 {
+  transform: translateY(-120px);
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  margin: 0;
+}
+
+.emission-popup {
+  background-color: rgb(39, 38, 44);
+  width: 500px;
+  height: 280px;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(253, 253, 253);
+  border: 5px solid rgb(165, 36, 53);
+}
+
+.emission-popup h2 {
+  margin-bottom: 10px;
+}
+
+.emission-popup h4 {
+  margin: 5px;
+}
+
+.emission-popup button {
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.popup-container {
+  position: absolute;
+  left: 50%;
+}
+
+.popup-position {
+  position: relative;
+  left: -50%;
+  margin-top: 50%;
+  z-index: 2;
+}
+
+.button-estimate {
+  display:inline-block;
+  padding:0.3em 1.2em;
+  margin:0 0.1em 0.1em 0;
+  border:0.16em solid rgba(255,255,255,0);
+  border-radius:2em;
+  background-color: rgb(227, 68, 166);
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  text-align:center;
+  transition: all 0.2s;
+}
+.button-estimate:hover{
+  border-color: rgb(201, 4, 4);
+  }
+
+  .button-goback {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    background-color: rgb(165, 36, 53);
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+  }
+  .button-goback:hover{
+    border-color: rgb(201, 4, 4);
+    }
+  
