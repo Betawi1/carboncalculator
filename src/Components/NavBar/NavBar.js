@@ -1,7 +1,7 @@
 import "./NavBar.css";
 import { NavLink } from "react-router-dom";
 import React from "react";
-import logo from "../../images/Kyoto-Web-Logo.png";
+import logo from "../../images/carbondex-logo.png";
 
 
 function NavBar({ loggedIn }) {
