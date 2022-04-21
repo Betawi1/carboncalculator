@@ -20,7 +20,7 @@ function NavBar({ loggedIn }) {
 
     <div className="navbar=brand">
      <a href="https://www.carbondex.exchange" target="_blank">      
-       <img src={logo} height="50" alt="" class="d-inline-block align-middle mr-2"/>
+       <img src={logo} height="70" alt="" class="d-inline-block align-middle mr-2"/>
      </a>
    </div>
     
