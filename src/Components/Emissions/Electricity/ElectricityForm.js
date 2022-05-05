@@ -87,7 +87,10 @@ function ElectricityForm({
 
 
         <button className="button-estimate" type="submit">Get Carbon Estimate</button>
-      </form>
+          <br/>
+          <br/>
+            <h6><small>Scroll up to see estimate</small></h6>      
+        </form>
 
       <div></div>
 
