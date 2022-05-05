@@ -16,45 +16,12 @@ function NavBar({ loggedIn }) {
   return (
     <div className="navbar-container">
 
-
-
     <div className="navbar=brand">
      <a href="https://www.carbondex.exchange" target="_blank">      
        <img src={logo} height="70" alt="" class="d-inline-block align-middle mr-2"/>
      </a>
    </div>
     
-     
-     
-      <div className="user-info-container">
-   
-        <h1 id="name-of-app" style={{ color: "black" }}>
-         CARBON FOOTPRINT CALCULATOR
-        </h1>
-
-      
-      </div>
-
-
-      <div className="nav-buttons">
-        <ul>
-       
-          <li>
-            <NavLink
-              to="/Estimate"
-              style={linkStyle}
-              activestyle={{ color: "blue" }}
-            >
-               
-           
-
-            </NavLink>
-          </li>
-          <li> 
-            
-      </li>
-        </ul>
-      </div>
 
      
 
