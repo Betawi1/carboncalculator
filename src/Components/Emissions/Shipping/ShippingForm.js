@@ -60,6 +60,11 @@ function ShippingForm({
           </select>
         </div>
         <button className="button-estimate" type="submit">Get Carbon Estimate</button>
+        <br/>
+        <br/>
+        <h6><small>Scroll up to see estimate</small></h6>
+
+
       </form>
     </div>
   );
